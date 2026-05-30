@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder AngelScript/Assets": {
+                    "watch": "@GEMROOT:AngelScript@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder AngelScript/Registry": {
+                    "watch": "@GEMROOT:AngelScript@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}

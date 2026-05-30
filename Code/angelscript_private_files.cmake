@@ -1,0 +1,32 @@
+
+set(FILES
+    Source/AngelScriptModuleInterface.cpp
+    Source/AngelScriptModuleInterface.h
+    Source/ScriptAsset.cpp
+    Source/Bindings/BehaviorContextBus.cpp
+    Source/Bindings/BehaviorContextBus.h
+    Source/Bindings/Debug.cpp
+    Source/Bindings/Debug.h
+    Source/Bindings/Entity.cpp
+    Source/Bindings/Entity.h
+    Source/Bindings/EntityBus.cpp
+    Source/Bindings/EntityBus.h
+    Source/Bindings/Gameplay.cpp
+    Source/Bindings/Gameplay.h
+    Source/Bindings/Math.cpp
+    Source/Bindings/Math.h
+    Source/Bindings/Physics.cpp
+    Source/Bindings/Physics.h
+    Source/Clients/AngelScriptSystemComponent.cpp
+    Source/Clients/AngelScriptSystemComponent.h
+    Source/Components/AngelScriptComponent.cpp
+    Source/Components/AngelScriptComponent.h
+    Source/Runtime/AngelScriptRuntime.cpp
+    Source/Runtime/AngelScriptRuntime.h
+    Source/Runtime/BehaviorContextInspector.cpp
+    Source/Runtime/BehaviorContextInspector.h
+    Source/Runtime/EntityBusBinding.cpp
+    Source/Runtime/EntityBusBinding.h
+    Source/Runtime/AngelScriptStdString.cpp
+    ../sdk/add_on/scriptarray/scriptarray.cpp
+)
